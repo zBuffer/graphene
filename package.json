@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zBuffer/graphene.git"
+    "url": "https://github.com/PeculiarVentures/graphene.git"
   },
   "engines": {
     "node": "^5.0.0"
   },
   "dependencies": {
     "int64-buffer": "^0.99.1007",
-    "zBuffer/pkcs11js": "^1.0.18",
+    "pkcs11js": "github:zBuffer/pkcs11js",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
